@@ -8,18 +8,17 @@
 
     <ImageView
         android:id="@+id/imageView1"
-        android:layout_width="138dp"
-        android:layout_height="161dp"
+        android:layout_width="125dp"
+        android:layout_height="134dp"
         android:layout_marginStart="4dp"
-        android:layout_marginTop="4dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/img_one" />
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="235dp"
-        android:layout_height="155dp"
+        android:layout_width="233dp"
+        android:layout_height="125dp"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="4dp"
         android:visibility="visible"
@@ -30,10 +29,10 @@
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="233dp"
-        android:layout_height="177dp"
-        android:layout_marginLeft="4dp"
-        android:layout_marginTop="8dp"
+        android:layout_width="227dp"
+        android:layout_height="151dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="4dp"
         android:visibility="visible"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView1"
@@ -42,9 +41,9 @@
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="170dp"
-        android:layout_height="174dp"
-        android:layout_marginTop="16dp"
+        android:layout_width="164dp"
+        android:layout_height="282dp"
+        android:layout_marginTop="4dp"
         android:visibility="visible"
         app:layout_constraintLeft_toRightOf="@+id/imageView3"
         app:layout_constraintTop_toBottomOf="@+id/imageView2"
@@ -52,52 +51,33 @@
         tools:visibility="visible" />
 
     <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="180dp"
-        android:layout_height="163dp"
-        android:layout_marginLeft="4dp"
-        android:layout_marginTop="8dp"
-        android:visibility="visible"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3"
-        app:srcCompat="@drawable/img5"
-        tools:visibility="visible" />
-
-    <ImageView
         android:id="@+id/imageView6"
-        android:layout_width="181dp"
-        android:layout_height="155dp"
-        android:layout_marginLeft="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
         android:visibility="visible"
-        app:layout_constraintLeft_toRightOf="@+id/imageView5"
         app:layout_constraintTop_toBottomOf="@+id/imageView4"
         app:srcCompat="@drawable/img6"
+        tools:layout_editor_absoluteX="194dp"
         tools:visibility="visible" />
 
     <ImageView
         android:id="@+id/imageView7"
-        android:layout_width="164dp"
-        android:layout_height="172dp"
-        android:layout_marginStart="4dp"
-        android:layout_marginBottom="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
         android:visibility="visible"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView5"
         app:srcCompat="@drawable/img7"
+        tools:layout_editor_absoluteY="493dp"
         tools:visibility="visible" />
 
     <ImageView
         android:id="@+id/imageView8"
-        android:layout_width="207dp"
-        android:layout_height="139dp"
-        android:layout_marginLeft=8dp"
-    android:visibility="visibl"8dp"
-        android:layout_marginTop="e"
-        app:layout_constraintLeft_toRightOf="@+id/imageView7"
-        app:layout_constraintTop_toBottomOf="@+id/imageView6"
-        app:srcCompat="@drawable/img8"
-        tools:visibility="visible" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="549dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
 
 
